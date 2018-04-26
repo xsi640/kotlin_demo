@@ -13,6 +13,7 @@
     <url>https://github.com/xsi640</url>
     <modules>
         <module>springboot_helloworld</module>
+        <module>springboot_asynchronous</module>
     </modules>
 
     <properties>
