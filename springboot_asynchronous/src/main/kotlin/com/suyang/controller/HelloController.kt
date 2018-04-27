@@ -1,4 +1,4 @@
-package com.suyang.controller
+package com.suyang.mina.controller
 
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.GetMapping
@@ -10,7 +10,7 @@ class IndexController {
     @GetMapping("/")
     @ResponseBody
     fun Index(): Callable<String> {
-        return Callable<String> {
+        return Callable {
             Thread.sleep(5000)
             "Hello"
         }

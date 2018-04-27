@@ -1,4 +1,4 @@
-package com.suyang.controller
+package com.suyang.mina.controller
 
 import com.suyang.Application
 import org.junit.Before
@@ -11,9 +11,9 @@ import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers.content
 import org.springframework.test.web.servlet.setup.MockMvcBuilders
 import org.springframework.web.context.WebApplicationContext
+
 
 @RunWith(SpringRunner::class)
 @SpringBootTest(classes = arrayOf(Application::class))
@@ -32,8 +32,9 @@ class HelloControllerTest {
     @Test
     fun test() {
         mockMvc.perform(MockMvcRequestBuilders.get("/"))
+                .andExpect(MockMvcResultMatchers.request().asyncStarted())
+                .andExpect(MockMvcResultMatchers.request().asyncResult<String>("Hello"))
                 .andDo(MockMvcResultHandlers.print())
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(content().string("Hello"))
     }
 }

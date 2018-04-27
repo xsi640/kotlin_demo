@@ -1,4 +1,4 @@
-package com.suyang.controller
+package com.suyang.mina.controller
 
 import com.suyang.Application
 import org.junit.Before

@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mina_demo" />
         <module name="springboot_asynchronous" />
+        <module name="springboot_fastjson" />
         <module name="springboot_helloworld" />
+        <module name="springboot_sqlite" />
+        <module name="springboot_websocket" />
+        <module name="springboot_websocket2" />
       </profile>
     </annotationProcessing>
   </component>

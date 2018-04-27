@@ -14,6 +14,11 @@
     <modules>
         <module>springboot_helloworld</module>
         <module>springboot_asynchronous</module>
+        <module>springboot_fastjson</module>
+        <module>springboot_sqlite</module>
+        <module>springboot_websocket</module>
+        <module>springboot_websocket2</module>
+        <module>mina_demo</module>
     </modules>
 
     <properties>
