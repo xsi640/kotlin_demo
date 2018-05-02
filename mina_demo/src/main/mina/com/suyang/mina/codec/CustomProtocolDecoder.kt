@@ -7,6 +7,7 @@ import org.apache.mina.core.session.IoSession
 import org.apache.mina.filter.codec.ProtocolDecoderAdapter
 import org.apache.mina.filter.codec.ProtocolDecoderOutput
 import java.nio.charset.Charset
+import java.util.*
 
 
 class CustomProtocolDecoder : ProtocolDecoderAdapter() {
@@ -53,6 +54,7 @@ class CustomProtocolDecoder : ProtocolDecoderAdapter() {
                     val msgBytes = ByteArray(msgLen)
                     ioBuffer.get(msgBytes, 0, msgBytes.size)
                     packet.message = String(msgBytes, Charset.forName("UTF-8"))
+                    var d = CustomProtocolDecoder()
                 }
                 if (ioBuffer.hasRemaining()) {
                     val data = ByteArray(ioBuffer.remaining())
