@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="mina_demo" />
-        <module name="springboot_asynchronous" />
-        <module name="springboot_fastjson" />
-        <module name="springboot_helloworld" />
-        <module name="springboot_sqlite" />
-        <module name="springboot_websocket" />
-        <module name="springboot_websocket2" />
-      </profile>
-    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mina_demo_main" target="1.5" />
+      <module name="mina_demo_test" target="1.5" />
+      <module name="springboot_asynchronous_main" target="1.5" />
+      <module name="springboot_asynchronous_test" target="1.5" />
+      <module name="springboot_fastjson_main" target="1.5" />
+      <module name="springboot_fastjson_test" target="1.5" />
+      <module name="springboot_helloworld_main" target="1.5" />
+      <module name="springboot_helloworld_test" target="1.5" />
+      <module name="springboot_sqlite_main" target="1.5" />
+      <module name="springboot_sqlite_test" target="1.5" />
+      <module name="springboot_websocket2_main" target="1.5" />
+      <module name="springboot_websocket2_test" target="1.5" />
+      <module name="springboot_websocket_main" target="1.5" />
+      <module name="springboot_websocket_test" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

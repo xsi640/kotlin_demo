@@ -1,0 +1,10 @@
+description = 'mina_demo'
+dependencies {
+    compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jdk8', version: '1.2.40'
+    compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.2.40'
+    compile group: 'org.apache.mina', name: 'mina-core', version: '2.0.16'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.10.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.10.0'
+}
