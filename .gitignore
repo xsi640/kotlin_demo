@@ -10,6 +10,4 @@ target
 .idea/compiler.xml
 .gradle/4.6/fileHashes/fileHashes.bin
 /out/**
-vertx_demo/out/production/classes/com/suyang/AppKt$main$1.class
-vertx_demo/out/production/classes/com/suyang/AppKt.class
-vertx_demo/out/production/classes/META-INF/vertx_demo_main.kotlin_module
+vertx_demo/out/*
