@@ -16,4 +16,5 @@ project(':springboot_websocket2').projectDir = "$rootDir/springboot_websocket2" 
 project(':mina_demo').projectDir = "$rootDir/mina_demo" as File
 include 'jdbc_demo'
 include 'immutables_demo'
+include 'vertx_demo'
 

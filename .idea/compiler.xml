@@ -25,6 +25,8 @@
       <module name="springboot_websocket2_test" target="1.5" />
       <module name="springboot_websocket_main" target="1.5" />
       <module name="springboot_websocket_test" target="1.5" />
+      <module name="vertx_demo_main" target="1.5" />
+      <module name="vertx_demo_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
