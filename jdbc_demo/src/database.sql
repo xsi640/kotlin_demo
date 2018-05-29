@@ -1,0 +1,8 @@
+CREATE TABLE student(
+	id INT NOT NULL AUTO_INCREMENT,
+	name VARCHAR(100) NOT NULL,
+	age INT,
+	birthday DATE,
+	store_id INT NOT NULL,
+	PRIMARY KEY (id)
+);

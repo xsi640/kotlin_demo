@@ -2,3 +2,10 @@
 springboot_properties/.factorypath
 .iml
 target
+/build
+.DS_Store
+.gradle
+.gradle/4.6/fileHashes/fileHashes.bin
+.gradle/4.6/fileHashes/fileHashes.lock
+.idea/compiler.xml
+.gradle/4.6/fileHashes/fileHashes.bin

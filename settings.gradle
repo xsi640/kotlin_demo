@@ -14,3 +14,6 @@ project(':springboot_sqlite').projectDir = "$rootDir/springboot_sqlite" as File
 project(':springboot_websocket').projectDir = "$rootDir/springboot_websocket" as File
 project(':springboot_websocket2').projectDir = "$rootDir/springboot_websocket2" as File
 project(':mina_demo').projectDir = "$rootDir/mina_demo" as File
+include 'jdbc_demo'
+include 'immutables_demo'
+

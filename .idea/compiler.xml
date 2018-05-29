@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="immutables_demo_main" target="1.8" />
+      <module name="immutables_demo_test" target="1.8" />
+      <module name="jdbc_demo_main" target="1.5" />
+      <module name="jdbc_demo_test" target="1.5" />
       <module name="mina_demo_main" target="1.5" />
       <module name="mina_demo_test" target="1.5" />
       <module name="springboot_asynchronous_main" target="1.5" />
