@@ -7,6 +7,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="elasticsearch_demo_main" target="1.5" />
+      <module name="elasticsearch_demo_test" target="1.5" />
+      <module name="ignit_main" target="1.5" />
+      <module name="ignit_test" target="1.5" />
+      <module name="ignite_demo_main" target="1.5" />
+      <module name="ignite_demo_test" target="1.5" />
       <module name="immutables_demo_main" target="1.8" />
       <module name="immutables_demo_test" target="1.8" />
       <module name="jdbc_demo_main" target="1.5" />
@@ -25,6 +31,8 @@
       <module name="springboot_websocket2_test" target="1.5" />
       <module name="springboot_websocket_main" target="1.5" />
       <module name="springboot_websocket_test" target="1.5" />
+      <module name="vertx-jdbc_main" target="1.5" />
+      <module name="vertx-jdbc_test" target="1.5" />
       <module name="vertx_demo_main" target="1.5" />
       <module name="vertx_demo_test" target="1.5" />
     </bytecodeTargetLevel>

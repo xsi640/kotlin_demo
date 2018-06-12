@@ -17,4 +17,6 @@ project(':mina_demo').projectDir = "$rootDir/mina_demo" as File
 include 'jdbc_demo'
 include 'immutables_demo'
 include 'vertx_demo'
-
+include 'vertx-jdbc'
+include 'elasticsearch_demo'
+include 'ignite_demo'
